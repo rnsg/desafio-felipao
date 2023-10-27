@@ -3,38 +3,38 @@
 //Objetivo: crie uma variável para armazenar o nome e a quantidade de experiência (XP) de um herói, depois utilize uma estrutura de decisão para apresentar alguma das mensagens abaixo:
 
 let nome = "felipao"
-let XP = 2.000
+let XP = 10500
 
-switch (XP){case 0 < 1.000:
-    console.log("O Herói "+nome," está no nível Ferro")
+switch (XP){case 0<1000:
+    console.log("O Herói "+nome,"está no nível Ferro")
     break
 
-    case 1.001 > 2.000:
-    console.log("O Herói "+nome," está no nível Bronze")
+    case 1001>2000:
+    console.log("O Herói "+nome,"está no nível Bronze")
     break
 
-    case 2.001 > 5.000:
-    console.log("O Herói "+nome," está no nível Prata")
+    case 2001>5000:
+    console.log("O Herói "+nome,"está no nível Prata")
     break
 
-    case 5.001 > 7.000:
-    console.log("O Herói "+nome, " está no nível Ouro")
+    case 5001>7000:
+    console.log("O Herói "+nome,"está no nível Ouro")
     break
 
-    case 7.001 > 8.000:
-    console.log("O Herói "+nome, " está no nível Platina")
+    case 7001>8000:
+    console.log("O Herói "+nome,"está no nível Platina")
     break
 
-    case 8.001 > 9.000:
-    console.log("O Herói "+nome, " está no nível Ascendente")
+    case 8001>9000:
+    console.log("O Herói "+nome,"está no nível Ascendente")
     break
 
-    case 9.001 > 10.000:
-    console.log("O Herói "+nome, " está no nível Imortal")
+    case 9001>10000:
+    console.log("O Herói "+nome,"está no nível Imortal")
     break
 
     default:
-    console.log("O Herói "+nome, " está no nível Radiante")
+    console.log("O Herói "+nome,"está no nível Radiante")
     break
 }
 
